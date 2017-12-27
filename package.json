@@ -1,0 +1,16 @@
+{
+  "name": "ragi-cli",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "version": "1.0.1",
+  "description": "RAGI CLI tool",
+  "main": "index.js",
+  "repository": "https://github.com/RALGIE/ragi-cli.git",
+  "author": "Ralph Gielkens",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.3",
+    "request": "^2.81.0"
+  }
+}
