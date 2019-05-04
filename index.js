@@ -34,7 +34,7 @@ program
 program
   .command('getConsulKeys')
   .alias('lskeys')
-  .description('Get all consull settings')
+  .description('Get all consul settings')
   .action(() => {
     prompt(questions).then(answers =>
       getConsulKeys(answers));
@@ -44,7 +44,7 @@ program
 program
     .command('getDataCenterRootKey')
     .alias('dcroot')
-    .description('Get all datacenter root keys')
+    .description('Get all data center root keys')
     .action(() => {
       prompt(getDataCenterRootKeyQuestions).then(answers =>
         getDataCenterRootKey(answers));
